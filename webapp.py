@@ -5,7 +5,7 @@ from ollama import ChatResponse
 import pandas as pd 
 
 
-majors = pd.read_excel("D:/youtab/majors.xlsx")
+majors = pd.read_excel("majors.xlsx")
 
 def filter(df: pd.DataFrame, query: dict):
     for key, value in query.items():
