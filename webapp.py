@@ -73,7 +73,7 @@ if prompt := st.chat_input("از یوتاب بپرس ..."):
             "prompt": f"""
             Extract the following details from the user's input and only give me dict of the values that has been extracted
             from user and say nothing else, i also want all values of dict be in a list if we have multiple value of a key for 
-            example if we have mechanical and computer engineering
+            example if we have mechanical and computer engineering in users prompt
             put it like this StudyName: ["mechanical engineering", "computer engineering"]:
             1. StudyName (major name)
             2. rating (as a number) 
